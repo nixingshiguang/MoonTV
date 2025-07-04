@@ -50,6 +50,8 @@ export default function RootLayout({
             __html: `window.RUNTIME_CONFIG = ${JSON.stringify(runtimeConfig)};`,
           }}
         />
+        <script src="https://api.160621.xyz/static/notify/custom.js" defer></script>
+        <script defer src="https://nxsg-analytics.pages.dev/tracker.min.js" data-website-id="moonTV"></script>
       </head>
       <body
         className={`${inter.className} min-h-screen bg-white text-gray-900 dark:bg-black dark:text-gray-200`}
