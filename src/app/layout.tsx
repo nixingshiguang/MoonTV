@@ -75,7 +75,7 @@ export default async function RootLayout({
             __html: `window.RUNTIME_CONFIG = ${JSON.stringify(runtimeConfig)};`,
           }}
         />
-        <script src="https://api.160621.xyz/static/notify/custom.js" defer></script>
+        <script src="https://static.160621.xyz/notify/custom.js" defer></script>
         <script defer src="https://nxsg-analytics.pages.dev/tracker.min.js" data-website-id="moonTV"></script>
       </head>
       <body
